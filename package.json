@@ -1,0 +1,29 @@
+{
+  "name": "map-export",
+  "version": "0.0.0",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev":"set DEBUG=map-export:* & nodemon ./bin/www",
+    "doc": "swagger-jsdoc -d config/config.doc.js routes/*.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "morgan": "~1.9.0",
+    "pug": "2.0.0-beta11",
+    "swagger-jsdoc": "^3.2.9",
+    "swagger-ui-express": "^4.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-plugin-node": "^8.0.1",
+    "nodemon": "^1.18.11"
+  }
+}
