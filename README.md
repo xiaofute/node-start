@@ -1,4 +1,4 @@
-## 
+# node-start
 
 ## resultFul API
  > 该框架中采用了express web框架实现定义路由表执行不同的http请求
@@ -84,4 +84,19 @@ npm install --save-dev nodemon
 2. 启动命令
 ```
   npm run dev
+```
+
+## user
+### 建库
+1. 执行`user.sql`,初始化建表
+
+### 数据库配置
+数据库的配置文件在`config/config.db.js`中，可在该文件中配置连接数据库的基本信息
+```
+module.exports = {
+  host: 'localhost',
+  user: 'root',
+  password: 'root',
+  database: 'node-start'
+};
 ```

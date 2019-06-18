@@ -1,7 +1,9 @@
 module.exports = {
     "env": {
         "browser": true,
-        "commonjs": true
+        "commonjs": true,
+        "es6":true,
+        "node":true
     },
     "extends":["eslint:recommended","plugin:node/recommended"],
     "parserOptions": {
@@ -19,9 +21,10 @@ module.exports = {
         "node/prefer-global/process": ["error", "always"],
         "node/prefer-global/url-search-params": ["error", "always"],
         "node/prefer-global/url": ["error", "always"],
-        "indent": ["error",4],
+        "indent": ["error",2],
         "linebreak-style": [0,"error", "windows"],
         "quotes": ["error","single"],
-        "semi": ["error","always"]
+        "semi": ["error","always"],
+        "no-console": "off",
     }
 };

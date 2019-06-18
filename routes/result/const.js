@@ -1,4 +1,4 @@
 const ERROR = {
-    success:'SUCCESS'
+  success:'SUCCESS'
 };
 module.exports = ERROR;
