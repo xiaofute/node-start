@@ -11,7 +11,7 @@
     "doc": "swagger-jsdoc -d config/config.doc.js routes/*.js"
   },
   "dependencies": {
-    "bcrypt": "^3.0.6",
+    "bcrypt": "^5.0.0",
     "body-parser": "^1.18.3",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
